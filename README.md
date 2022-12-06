@@ -1,5 +1,5 @@
-# PointsLinesPolygon-Homework
+# Homework for Points,  Lines, and Polygons
 
-Homework covering points, lines, and polygons.
+This is a quick homework that will be focusing on the use of points, lines, and polygons using the sf package.  
 
 
