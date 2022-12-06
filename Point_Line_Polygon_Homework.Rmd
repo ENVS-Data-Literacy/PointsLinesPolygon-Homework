@@ -1,0 +1,37 @@
+---
+title: "Homeworks: Lines & Polygons"
+---
+
+</center>![Zoning Districts in the Fan](https://live.staticflickr.com/65535/50977272671_8656337587_c_d.jpg)</center>
+
+For this activity, we will focus on loading and manipulating `LINESTRING` and `POLYGON` objects derived from the City of Richmond, GIS Department.
+
+Here are the URL's for the shapefile zip archives.
+
+```{r}
+roads_url <- "https://github.com/dyerlab/ENVS-Lectures/raw/master/data/Centerlines-shp.zip"
+district_url <- "https://github.com/dyerlab/ENVS-Lectures/raw/master/data/Zoning_Districts-shp.zip"
+schools_url <- "https://github.com/dyerlab/ENVS-Lectures/raw/master/data/rps_schools.zip"
+```
+
+And here is the CSV file for describing Zoning Types.
+
+```{r}
+zone_url <- "https://raw.githubusercontent.com/dyerlab/ENVS-Lectures/master/data/DistrictCodes.csv"
+```
+
+## Questions
+
+Use the information from all the above sources to answer the following questions.
+
+1. In which Zoning District is Monroe Park located and what is the area of that district.
+
+2. Create a map of the area enclosed by N Belvidere St, East Broad St, and I-95.  Within this area, show the streets, but not alleys.
+
+3. What kind of Zoning Districts are within this area?  Make a table showing category & area.
+
+4. Download the Richmond School shapefile above and make a table of all the schools that are within 1000 ft of any highways in Richmond, Virginia.
+
+5. How many zoning districts are enclosed within the boundaries of the Monroe Park Campus?  Give the area of each.
+
+
