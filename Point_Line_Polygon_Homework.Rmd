@@ -1,12 +1,12 @@
 ---
 title: "Homeworks: Lines & Polygons"
+execute:
+  echo: false 
 ---
 
 </center>![Zoning Districts in the Fan](https://live.staticflickr.com/65535/50977272671_8656337587_c_d.jpg)</center>
 
-For this activity, we will focus on loading and manipulating `LINESTRING` and `POLYGON` objects derived from the City of Richmond, GIS Department.
-
-Here are the URL's for the shapefile zip archives.
+Here are the URL's for the shapefile zip archives from the City of Richmond, GIS Department.
 
 ```{r}
 roads_url <- "https://github.com/dyerlab/ENVS-Lectures/raw/master/data/Centerlines-shp.zip"
@@ -22,7 +22,7 @@ zone_url <- "https://raw.githubusercontent.com/dyerlab/ENVS-Lectures/master/data
 
 ## Questions
 
-Use the information from all the above sources to answer the following questions.
+Use the information from all the above sources to answer the following questions.  I do not want to see any raw `R` output, please wrap it all within markdown using textual, graphical, and/or tabular responses.
 
 1. In which Zoning District is Monroe Park located and what is the area of that district.
 
